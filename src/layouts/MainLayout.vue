@@ -56,9 +56,6 @@ export default {
     }
   },
   watch: {
-    // locale() {
-    //   console.log('Locale changed')
-    // },
     error (fbError) {
       this.$error(messages[fbError.code] || 'Что-то пошло не так')
     }
